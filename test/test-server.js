@@ -237,7 +237,7 @@ describe("Recipes", function() {
     // we can make a second, PUT call to the app.
     const updateData = {
       name: "milkshake",
-      ingredients: ["cocoa powder", "vanilla ice cream"]
+      ingredients: ["cocoa powder", "1 cup vanilla ice cream"]
     };
 
     return (
