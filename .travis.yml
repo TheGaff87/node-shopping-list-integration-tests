@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: VkEgn8QmBu09zIY+R0PH/ZJ7Z+zlClKwe39eS29rcpOzkkWRaaL+Vfsk8dc5Ax3cTalWb0VuTe5Fk/7vq+tm6Gq0MSUVhaXMpyOGwRWuQVlOJuhH5sbTN80sZOy2rWibBslLtvR+pHDFv02xDlR6u92iH6OZgJBEIpH+loiqQgkbtd7lYrZM7Z/WTJJI6fcAw2Y0XWsKNZeh5/T9bLnPosX2KZvNN/9uiAJ7ru7HwB+u2eNV27EUwK1CPfsFbwgzJfsBNn7PmdOEfLVuSgRdPVh+ghyKFpHdc/jUkZQ3QhcWOCwho65m0hBgySseSeJtHK2VwsyxZ+aXT3Ngq+i7+fm814Zl8Jz45gqbHY/qR+V7BolYQMCSzYulou1U3fOBEBp8eOqxym52CZNW1PRPGqD9XG01unBl/LAOmztQr7N0TEAPvaKw1FDDlx+DyyW94MGOkB55CZJCpy3bpE/MNGTKzYjeh74c3Y/e6+hZOaQFICcWsGxRdmIRXL4J9b/IUPP4hqG0fW3gSS6pJOeBACfQvUAVRjwM16TmEKL7mzl0RQRTHeOIFtLt6jAClQtjBSRbcSHzQYvsa6mMfdzz+Uygdpbeqt5THBLgS4xWFcAq12+FKI2ZExkHk0HIatuMQsepCvsGR9cymwrU9zIGjewpqZz+U6pyeYCzGe02j6w=
+  app: stark-brook-48208
+  on:
+    repo: TheGaff87/node-shopping-list-integration-tests
